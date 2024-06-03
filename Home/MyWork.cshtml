@@ -1,0 +1,127 @@
+﻿@model IEnumerable<CLDVPart1.Models.Product>
+
+
+@foreach (var product in Model)
+{
+    <div>
+        <h2>@product.productName</h2>
+        <p>@product.productDescription</p>
+        <p>@product.productPrice</p>
+        <p>@product.productQuantity</p>
+        <p>@product.productAvailability</p>
+        <img src="@product.productImage" alt="Product Image"/>
+    </div>
+}
+@{
+    ViewData["Title"] = "MyWork";
+}
+
+<h1>MyWork</h1>
+<br />
+<p>
+    At KhumaloCraft, we specialize in curating and showcasing a diverse array of artisanal artwork that embodies cultural heritage, craftsmanship, and artistic expression. Our artisans, hailing from various corners of the globe, pour their creativity and expertise into every piece they create, resulting in a collection that is as diverse as it is captivating. 
+
+    From intricately hand-carved wooden masks that pay homage to ancient traditions to vibrant handwoven textiles that capture the essence of cultural identity, each artwork tells a unique story and reflects the rich tapestry of human creativity. Whether it's the serene beauty of hand-carved wooden statues, the intricate detailing of handmade metalwork, or the functional elegance of ceramic pottery, our collection encompasses a wide range of mediums and styles, ensuring there's something to inspire every taste and aesthetic.
+
+    We take pride in fostering a deep appreciation for traditional craftsmanship while also embracing innovation and contemporary design. Our artisans continually push the boundaries of their craft, blending time-honored techniques with modern sensibilities to create truly one-of-a-kind artworks that resonate with collectors and enthusiasts alike.
+</p>
+<br />
+<h3>
+    CraftWork Showcase
+</h3>
+
+
+
+<img src="~/newfolder/woven-shawls.jpg"
+     width="400"
+     height="200" />
+<img src="~/newfolder/pottery-and-ceramics.jpg"
+     width="400"
+     height="200" />
+<img src="~/newfolder/colorful-african-masks-decorate-ancient-indigenous-culture-generated-by-ai-free-photo.jpg"
+     width="400"
+     height="200" />
+
+     <br />
+     <p>
+    Handwoven Textiles    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Ceramic Pottery              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Hand-carved Wooden Masks
+</p>
+
+
+     <br />
+     <br />
+
+<img src="~/newfolder/images.jpeg"
+     width="400"
+     height="200" />
+<img src="~/newfolder/furniture.jpg"
+     width="400"
+     height="200" />
+<img src="~/newfolder/wooden animals.jpg"
+     width="400"
+     height="200" />
+     <br />
+     <p>
+    Hand-Made Metalwork     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp     Hand-Woven Furniture     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp     Hand-Carved Wooden Statues
+     </p>
+     <br />
+     <br />
+     <br />
+     <h3>
+         Product Descriptions
+     </h3>
+     <h5>
+         HandWoven Textiles:
+     </h5>
+     <p>
+    Experience the artistry of handwoven textiles with our vibrant collection, lovingly crafted by talented artisans using age-old techniques and natural fibers. From intricate tapestries to colorful rugs, each piece reflects the unique cultural heritage and craftsmanship of its maker. Whether draped over a sofa, hung on a wall, or laid on the floor, our handwoven textiles infuse your home with warmth, texture, and a sense of artisanal charm.
+     </p>
+     <br />
+     <h5>
+         Ceramic Pottery:
+     </h5>
+     <p>
+    Explore the beauty of handmade ceramic pottery with our exquisite collection, crafted by skilled artisans with a passion for clay and creativity. From rustic vases to elegant dinnerware, each piece showcases the artisan's mastery of form, texture, and glazing techniques. Whether displayed as a centerpiece on your dining table or adorning a shelf in your living room, our ceramic pottery adds a touch of sophistication and artistry to your home décor.
+     </p>
+     <br />
+     <h5>
+    Hand-carved Wooden Masks:
+     </h5>
+     <p>
+    
+    Embrace the rich cultural heritage of Africa with our hand-carved wooden masks, crafted by skilled artisans with a deep appreciation for tradition and craftsmanship. Each mask tells a story of cultural identity and spiritual significance, showcasing intricate designs, symbolic motifs, and masterful carving techniques. Whether displayed as decorative art or worn during ceremonial occasions, our wooden masks add a touch of authenticity and cultural richness to any space.
+     </p>
+     <br />
+     <h5>
+    Hand-made Metalwork:
+     </h5>
+     <p>
+    Elevate your decor with our stunning collection of hand-made metalwork, crafted with precision and passion by talented artisans. From intricately forged iron candle holders to elegantly hammered copper vases, each piece showcases exquisite craftsmanship and attention to detail. Whether you're drawn to the rustic charm of hand-forged iron or the sleek sophistication of polished brass, our metalwork pieces add a timeless elegance and artisanal flair to any space.
+     </p>
+     <br />
+     <h5>
+    Hand-Woven Furniture:
+</h5>
+<p>
+    Transform your living space with our exquisite hand-woven furniture, meticulously crafted by skilled artisans using traditional techniques passed down through generations. Each piece tells a story of craftsmanship and heritage, showcasing intricate patterns, natural textures, and timeless beauty. Whether it's a handwoven rattan chair, a intricately woven basketry coffee table, or a woven seagrass ottoman, our furniture pieces add warmth, character, and a touch of artisanal elegance to your home.
+</p>
+<br />
+<h5>
+    Hand-carved Wooden Statues:
+</h5>
+<p>
+    Immerse yourself in the beauty of our hand-carved wooden statues, each a masterpiece of craftsmanship and artistry. Carved from sustainably sourced wood by skilled artisans, these statues capture the essence of cultural heritage and spiritual significance. Whether it's a serene Buddha statue, a majestic animal figurine, or a whimsical mythological creature, each carving radiates warmth, tranquility, and a sense of connection to the natural world. Displayed as a focal point in your home or garden, our wooden statues evoke a sense of serenity and contemplation, inviting you to pause, reflect, and appreciate the beauty of handcrafted art.
+</p>
+<br />
+<h3>
+    Pricing
+</h3>
+
+<ul>
+    <li>Handwoven Textiles: R500 per square metre</li>
+    <li>Ceramic Pottery: R1500 per Vase; R200 per Mug; R500 per Bowl; R2000 per Dinner set</li>
+    <li>Hand-carved Wooden Masks: R1500 each</li>
+    <li>Hand-Made MetalWork: R500 per 30cm Statue; R1000 per 50cm Statue; R3000 per 100cm Statue</li>
+    <li>Hand-Woven Furniture: R2000 per Single Lounge Chair; R3000 per Double Lounge Chair; R2000 per Coffee Table; R500 per Ottoman</li>
+    <li>Hand-Carved Wooden Statues: R200 per 10cm Statue; R500 per 30cm Statue; R1000 per 50cm Statue</li>
+</ul>
